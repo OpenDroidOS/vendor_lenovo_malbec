@@ -16,7 +16,8 @@
   "inherit": [
     "productdefine/common/base/standard_system.json",
     "productdefine/common/inherit/tablet.json",
-    "vendor/opendroid/common/base.json"
+    "vendor/opendroid/common/base.json",
+    "vendor/opendroid/common/tablet.json"
   ],
   "subsystems": [
     {
