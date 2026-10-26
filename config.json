@@ -1,0 +1,31 @@
+{
+  "product_name": "malbec",
+  "product_company": "lenovo",
+  "device_company": "lenovo",
+  "device_build_path": "device/board/lenovo/malbec",
+  "board_path": "device/board/lenovo/malbec",
+  "product_build_path": "vendor/lenovo/malbec",
+  "board": "malbec",
+  "version": "3.0",
+  "type": "standard",
+  "target_os": "ohos",
+  "target_cpu": "arm64",
+  "kernel_type": "linux",
+  "build_selinux": true,
+  "enable_ramdisk": true,
+  "inherit": [
+    "productdefine/common/base/standard_system.json",
+    "productdefine/common/inherit/tablet.json",
+    "vendor/opendroid/common/base.json"
+  ],
+  "subsystems": [
+    {
+      "subsystem": "product_malbec",
+      "components": [
+        {
+          "component": "product_malbec"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "@opendroid/product_malbec",
+  "license": "Apache-2.0",
+  "component": {
+    "name": "product_malbec",
+    "subsystem": "product_malbec",
+    "build": {
+      "sub_component": [
+        "//vendor/lenovo/malbec:product"
+      ]
+    }
+  }
+}
